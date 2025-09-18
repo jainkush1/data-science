@@ -9,7 +9,7 @@ def printPowerSet(set, SetSize):
         for inner in range(0, SetSize):
 
             if((outer & (1<< inner)) > 0):
-                print(set(inner), end = "")
+                print(set[inner], end = "")
         print("")
 
 size = int(input("Enter array size:"))
